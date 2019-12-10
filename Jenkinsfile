@@ -1,18 +1,29 @@
+Jenkinsfile (Declarative Pipeline)
 pipeline {
-  agent any
-  stages {
-	stage('Clone sources') {
-	        echo 'Clone sources '
-            git url: 'https://github.com/OAbouHajar/jenkins_SEC4'
+    agent none
+    stages {
+        stage('Example Build') {
+            steps {
+                    sh 'mvn clean compile'
+                    echo 'Fetch Data'
+                    git url: 'https://github.com/OAbouHajar/jenkins_SEC4'
+            }
         }
-    stage('Build'){
-            echo 'Build TO BE DONE'
-      }
+        stage('Example build') {
+            steps {
+                echo 'Build Stage'
+                sh 'java -version'
+            }
+        }
     }
-    stage('Test') {
-      steps {
-            echo 'Test TO BE DONE'
-      }
-    }
-  }
 }
+
+
+
+
+
+
+
+
+
+
