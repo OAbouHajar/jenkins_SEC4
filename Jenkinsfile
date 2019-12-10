@@ -3,14 +3,19 @@ pipeline {
     stages {
         stage('Example Fetch') {
             steps {
+                    echo "Fetch Data"
             }
         }
         stage('Example build') {
             steps {
+                echo "build Data"
+
 	            }
         }
-            stage('Test') {
+            stage('Example Test') {
               steps {
+                echo "Test Data"
+
               }
             }
 

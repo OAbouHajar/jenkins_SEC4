@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1db8b66a-0390-445f-be94-557f6d105b21" name="Default Changelist" comment="" />
+    <list default="true" id="1db8b66a-0390-445f-be94-557f6d105b21" name="Default Changelist" comment="Add test jenkinsfile">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/studentAttendance" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UnCCUTffBlUL0hP3uLGH30eWP6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,10 +40,13 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -123,6 +130,49 @@
       <option name="presentableId" value="Default" />
       <updated>1575982845190</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add test jenkinsfile">
+      <created>1576018896165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576018896165</updated>
+    </task>
+    <task id="LOCAL-00002" summary="edit test jenkinsfile">
+      <created>1576019482875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576019482875</updated>
+    </task>
+    <task id="LOCAL-00003" summary="edit test jenkinsfile 2">
+      <created>1576019541787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576019541787</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add test jenkinsfile">
+      <created>1576019633223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576019633223</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add test jenkinsfile">
+      <created>1576019939398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576019939398</updated>
+    </task>
+    <task id="LOCAL-00006" summary="edit jenfile">
+      <created>1576020030209</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576020030209</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,5 +187,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit test jenkinsfile" />
+    <MESSAGE value="edit test jenkinsfile 2" />
+    <MESSAGE value="Add test jenkinsfile" />
+    <MESSAGE value="edit jenfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit jenfile" />
   </component>
 </project>
