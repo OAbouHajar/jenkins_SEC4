@@ -1,7 +1,7 @@
 pipeline {
     agent none
     stages {
-        stage('Example Build') {
+        stage('Example Fetch') {
             steps {
                     sh 'mvn clean compile'
                     echo 'Fetch Data'
@@ -11,7 +11,6 @@ pipeline {
         stage('Example build') {
             steps {
                 echo 'Build Stage'
-                sh 'java -version'
             }
         }
     }
