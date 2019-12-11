@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Fetch') {
             steps {
-                    echo "Fetch Data"
-                    bat "git clone https://github.com/OAbouHajar/jenkins_SEC4.git"
+                    echo "git fetch origin"
+
             }
         }
         stage('Compile') {
