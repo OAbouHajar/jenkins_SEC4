@@ -1,6 +1,11 @@
 pipeline {
     agent none
     stages {
+     stage('Compile') {
+                steps {
+                    echo "fetch Data"
+    	            }
+            }
         stage('Compile') {
             steps {
                 echo "build Data"
