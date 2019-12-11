@@ -1,6 +1,13 @@
 pipeline {
     agent none
     stages {
+        stage('Fetch') {
+            steps {
+                    echo "Fetch Data"
+                    bat "git fetch origin"
+                    bat "cd jenkins_SEC4"
+            }
+        }
         stage('Compile') {
             steps {
                 echo "build Data"
