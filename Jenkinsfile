@@ -4,6 +4,7 @@ pipeline {
         stage('Fetch') {
             steps {
                     echo "Fetch Data"
+                    bat "git clone https://github.com/OAbouHajar/jenkins_SEC4.git"
             }
         }
         stage('Compile') {
