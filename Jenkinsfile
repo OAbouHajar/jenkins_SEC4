@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Fetch') {
             steps {
-                    echo "git fetch origin"
+                    bat "git fetch origin"
 
             }
         }
