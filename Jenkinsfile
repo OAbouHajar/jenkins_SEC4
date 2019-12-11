@@ -4,8 +4,6 @@ pipeline {
         stage('Fetch') {
             steps {
                     echo "Fetch Data"
-                    bat "git fetch origin"
-                    bat "cd jenkins_SEC4"
             }
         }
         stage('Compile') {
