@@ -1,7 +1,7 @@
 pipeline {
     agent none
     stages {
-     stage('Compile') {
+     stage('fetch') {
                 steps {
                     echo "fetch Data"
     	            }
