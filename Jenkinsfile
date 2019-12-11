@@ -10,7 +10,6 @@ pipeline {
         stage('Compile') {
             steps {
                 echo "build Data"
-                bat "cls"
                 sh 'javac "src\\Student.java" '
 	            }
         }
