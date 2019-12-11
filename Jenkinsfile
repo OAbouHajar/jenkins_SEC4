@@ -1,12 +1,6 @@
 pipeline {
-    agent none
+    agent any
     stages {
-        stage('Fetch') {
-            steps {
-                    echo "git fetch origin"
-
-            }
-        }
         stage('Compile') {
             steps {
                 echo "build Data"
