@@ -11,7 +11,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo "build Data"
-                bat 'javac "src\\Student.java" '
+                bat 'javac "src\\Student.java"'
 	            }
         }
             stage('Test') {
