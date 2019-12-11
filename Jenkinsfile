@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo "build Data"
                 bat "cls"
-                sh 'javac "src\\*.java" '
+                sh 'javac "src\\Student.java" '
 	            }
         }
             stage('Test') {

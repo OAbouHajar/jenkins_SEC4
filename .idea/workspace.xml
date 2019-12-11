@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576056578664</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add test jenkinsfile">
+      <created>1576056745451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576056745451</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,9 +204,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edit test jenkinsfile" />
     <MESSAGE value="edit test jenkinsfile 2" />
-    <MESSAGE value="Add test jenkinsfile" />
     <MESSAGE value="edit jenfile" />
     <MESSAGE value="fix the jenkiens file" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix the jenkiens file" />
+    <MESSAGE value="Add test jenkinsfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test jenkinsfile" />
   </component>
 </project>
