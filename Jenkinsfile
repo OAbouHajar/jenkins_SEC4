@@ -74,11 +74,11 @@ pipeline {
         }
       }
     }
-    stage("after all") {
-      steps {
-        echo "Executing Dev"
-      }
-    }
+    // stage("after all") {
+    //   steps {
+    //     echo "Executing Dev"
+    //   }
+    // }
   }
 }
 
