@@ -37,20 +37,6 @@ pipeline {
             }
           }
         }
-        stage("stream3") {
-          stages {
-            stage("Jasmine") {
-              steps {
-                echo "Executing Jasmine"
-              }
-            }
-            stage("Safari") {
-              steps {
-                echo "Executing Safari"
-              }
-            }
-          }
-        }
       }
     }
     stage("Dev") {
