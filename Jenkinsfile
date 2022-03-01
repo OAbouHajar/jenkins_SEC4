@@ -20,7 +20,7 @@ pipeline {
       steps {
         echo "Executing Build"
       }
-    }
+    } //generate
     stage ("Parallel Builds") {
       parallel {
         stage("stream helm") {
@@ -52,7 +52,7 @@ pipeline {
             }
 
           }
-        }        
+        } //stages stream 1
         stage("stream testing") {
           stages {
             stage("Docker Compose") {
@@ -68,18 +68,17 @@ pipeline {
             stage("SQ") {
               steps {
                 echo "Executing SQ"
-                sh resr
               }
             }
           }
         }
+      } //stages stream 2
+    }//parrelle
+    stage("after all") {
+      steps {
+        echo "Executing Dev"
       }
     }
-    // stage("after all") {
-    //   steps {
-    //     echo "Executing Dev"
-    //   }
-    // }
   }
 }
 
