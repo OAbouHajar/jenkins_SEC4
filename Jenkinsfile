@@ -1,7 +1,17 @@
 pipeline {
     agent none
   stages {
-    stage("Build") {
+    stage("clean") {
+      steps {
+        echo "Executing Build"
+      }
+    }
+    stage("init") {
+      steps {
+        echo "Executing Build"
+      }
+    }
+    stage("generate") {
       steps {
         echo "Executing Build"
       }
@@ -13,6 +23,16 @@ pipeline {
             stage("image") {
               steps {
                 echo "Executing image"
+              }
+            }
+            stage("package") {
+              steps {
+                echo "Executing image"
+              }
+            }
+            stage("helm lock") {
+              steps {
+                echo "Executing helm"
               }
             }
             stage("helm") {
