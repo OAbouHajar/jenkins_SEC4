@@ -39,11 +39,6 @@ pipeline {
         }
       }
     }
-    stage("Dev") {
-      steps {
-        echo "Executing Dev"
-      }
-    }
   }
 }
 
