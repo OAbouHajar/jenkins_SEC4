@@ -23,7 +23,7 @@ pipeline {
             stage("SQ Report") {
               steps {
                 echo "Executing Firefox"
-              }
+              
             }
           }
         }
