@@ -8,7 +8,7 @@ pipeline {
             }
         stage('Compile') {
             steps {
-                echo "build Data"
+                echo "build Data."
                  bat 'javac "D:\\IT Carlow\\Year4\\Soft Eng\\jenkins\\studentAtt\\src\\Student.java"'
 	            }
         }
