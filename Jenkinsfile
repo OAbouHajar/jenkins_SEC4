@@ -74,7 +74,7 @@ pipeline {
         }
       }
     }
-    stage("Dev") {
+    stage("after all") {
       steps {
         echo "Executing Dev"
       }
