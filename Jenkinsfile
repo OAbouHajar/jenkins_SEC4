@@ -11,6 +11,11 @@ pipeline {
         echo "Executing Build"
       }
     }
+    stage("lint") {
+      steps {
+        echo "Executing Build"
+      }
+    }
     stage("generate") {
       steps {
         echo "Executing Build"
