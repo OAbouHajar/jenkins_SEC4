@@ -10,13 +10,17 @@ pipeline {
       parallel {
         stage("stream1") {
           stages {
-            stage("JUnit") {
+            stage("Docker Compose") {
               steps {
-                echo "Executing JUnit"
-                sh "echo test"
+                echo "Docker compose up"
               }
             }
-            stage("Firefox") {
+            stage("Run tests") {
+              steps {
+                echo "Executing Firefox"
+              }
+            }
+            stage("SQ Report") {
               steps {
                 echo "Executing Firefox"
               }
@@ -37,6 +41,11 @@ pipeline {
             }
           }
         }
+      }
+    }
+    stage("Dev") {
+      steps {
+        echo "Executing Dev"
       }
     }
   }
