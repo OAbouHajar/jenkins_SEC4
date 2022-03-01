@@ -15,15 +15,15 @@ pipeline {
                 echo "Docker compose up"
               }
             }
-            stage("Run tests") {
+            stage("SQ ") {
               steps {
                 echo "Executing Firefox"
               }
             }
-            stage("SQ Report") {
+            stage("SQ ") {
               steps {
                 echo "Executing Firefox"
-              
+              }
             }
           }
         }
