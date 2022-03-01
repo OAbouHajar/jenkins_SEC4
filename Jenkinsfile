@@ -13,6 +13,7 @@ pipeline {
             stage("JUnit") {
               steps {
                 echo "Executing JUnit"
+                sh "echo test"
               }
             }
             stage("Firefox") {
