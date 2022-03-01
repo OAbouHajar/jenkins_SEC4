@@ -68,6 +68,7 @@ pipeline {
             stage("SQ") {
               steps {
                 echo "Executing SQ"
+                sh resr
               }
             }
           }
