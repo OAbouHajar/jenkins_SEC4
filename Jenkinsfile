@@ -8,35 +8,41 @@ pipeline {
     }
     stage ("Parallel Builds") {
       parallel {
-        stage("stream1") {
+        stage("stream helm") {
+          stages {
+            stage("image") {
+              steps {
+                echo "Executing image"
+              }
+            }
+            stage("helm") {
+              steps {
+                echo "Executing helm"
+              }
+            }
+            stage("helm test") {
+              steps {
+                echo "Executing helm test"
+              }
+            }
+
+          }
+        }        
+        stage("stream testing") {
           stages {
             stage("Docker Compose") {
               steps {
                 echo "Docker compose up"
               }
             }
-            stage("SQ ") {
+            stage("Tests") {
               steps {
-                echo "Executing Firefox"
+                echo "Executing Tests"
               }
             }
-            stage("SQ ") {
+            stage("SQ") {
               steps {
-                echo "Executing Firefox"
-              }
-            }
-          }
-        }
-        stage("stream2") {
-          stages {
-            stage("DBUnit") {
-              steps {
-                echo "Executing DBUnit"
-              }
-            }
-            stage("Edge") {
-              steps {
-                echo "Executing Edge"
+                echo "Executing SQ"
               }
             }
           }
